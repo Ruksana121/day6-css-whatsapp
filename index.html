@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what's App</title>
+    <style>
+        .container{
+            border: 5px solid;
+            height: 66vh;
+            width: 20%;
+            margin: auto;
+            border-radius: 20px;
+        }
+        .child1{
+            height: 10vh;
+            background-color: rgb(41, 154, 41);
+            display: flex;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            /* overflow: scroll; */
+        }
+        img{
+           width: 10%;
+           height: 8vh;
+           border-radius: 25px;
+           margin-top: 10px;
+           padding-left: 5px;
+        }
+        /* i{
+            font-size: 20px;
+            color: whitesmoke;
+            margin-top: 25px;
+        } */
+        .child2{
+            display: flex;
+            flex-direction: column;
+            height: 375px;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+        .date{
+            background: rgb(242, 225, 225);
+            width: 60px;
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+            position: sticky;
+            top: 0px;
+            z-index: 1;    
+        }
+        .right{
+            margin: 10px;
+            background-color: rgb(69, 190, 61);
+            padding: 8px 12px;
+            border-radius: 10px;
+            max-width: 60%;
+            align-self: flex-end;
+             }
+             .left{
+                
+                margin: 10px;
+            text-align: left;
+            margin: 10px;
+            background-color: rgb(200, 200, 200);
+            padding: 8px 12px;
+            border-radius: 10px;
+            max-width: 60%;
+            align-self: flex-start;
+             }
+             .child3{
+                display: flex;
+                gap: 10px;
+                padding:0px 3px;
+                /* border: 1px solid; */
+                width: 100%;
+                height: 40px;
+                border-radius: 10px;
+                
+             }
+             i{
+                color: rgb(117, 112, 112);
+                margin-top: 10px;
+                /* padding-left: 10px; */
+                  
+             }
+             #hi{
+                width: 60%;
+            padding: 5px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background-color: #f1f1f1;
+
+             }
+             
+
+    </style>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="child1">
+            <i class="fa-solid fa-left-long" style="padding-left: 5px; font-size: 20px; color: whitesmoke;   margin-top: 25px; " ></i>
+            <img src="lulu2.jpg">
+            <p style="margin-top: 30px; color: whitesmoke;  padding-left: 5px;" >SAM</p>
+            <i class="fa-solid fa-video" style="padding-left: 120px; margin-top: 30px; font-size: 20px; color: whitesmoke;   "></i>
+            <i class="fa-solid fa-phone" style="padding: 6px; font-size: 20px; color: whitesmoke;   margin-top: 25px;"></i>
+            <i class="fa-solid fa-ellipsis-vertical" style="padding: 6px; font-size: 20px; color: whitesmoke;   margin-top: 25px;"></i>
+        </div>
+        <div class="child2">
+            <div class="date">29 JAN</div>
+<div class="left" style="width: 50px;">Hello!!</div>
+<div class="left" style="width: 120px;">Gud Morning!!</div>
+<div class="right">Hey Mrng Mrng!!</div>
+<div class="right">How are you??</div>
+<div class="left" style="width: 80px;">I'm good</div>
+<div class="left" style="width: 120px;">What about you??</div>
+<div class="right">I'm too good</div>
+<div class="date">30 JAN</div>
+<div class="right">I think your graduation is completed right!!</div>
+<div class="right">What's your next plan??</div>
+<div class="left" style="width: 200px;">Thinking about to join training institue</div>
+<div class="left" style="width: 190px;">Is there any suggestions form your side?</div>
+<div class="right">yeah!! Recently i have joined 10K coders</div>
+<div class="right">I think 10k Coders is right one to again new skills</div>
+<div class="left" style="width: 150px;">That's Interesting!!</div>
+<div class="date">31 JAN</div>
+<div class="left" style="width: 170px;">What are the courses they are providing??</div>
+<div class="right">Yeah sure!!
+    Python full stack, Java full stack, MERN stack, MEAN Stack</div>
+    <div class="left" style="width: 200px;">Okay!! I will also check once and get back to you.</div>
+    <div class="right">Okay!! Then Byee...</div>
+    <div class="left" style="width: 50px;"> Byee...</div>
+    <div class="date">01 Feb</div>
+    <div class="left" style="width: 150px;"> Hey girl!! Are you free..?</div>
+    <div class="right">Yeahh!!</div>
+    <div class="left" style="width: 150px;"> Can we go out??</div>
+    <div class="right">Obvisouly!!I'm ready</div>
+    <div class="right">Okay, But where we are going??</div>
+    <div class="left" style="width: 200px;"> Today we can explore shilparam!!!</div>
+    <div class="right">Okay, But i don't know about that</div>
+    <div class="left" style="width: 200px;"> It is very gud place where we can have look our old living culture and traditions.</div>
+    <div class="right">Okay, then Let's have some fun today!!!!!</div>
+    <div class="left" style="width: 150px;"> Okay!!Let's go....</div>
+</div>
+<div class="child3">
+    <i class="fa-solid fa-face-smile"></i>
+    <input type="text" id="hi" placeholder="text msg"> 
+    <i class="fa-solid fa-paperclip" ></i>
+    <i class="fa-solid fa-indian-rupee-sign"></i>
+    <i class="fa-solid fa-camera"></i>
+    
+</div>
+</footer>
+</body>
+</html>
